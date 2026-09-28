@@ -1,0 +1,6 @@
+{
+  "name": "Smart AI",
+  "description": "Understand. Convert. Stay Safe. All-in-one AI utility platform to analyze screenshots, remove backgrounds, convert & compress everyday files, and check suspicious messages & links.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

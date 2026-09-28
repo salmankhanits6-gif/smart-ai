@@ -1,0 +1,774 @@
+{
+  "timestamp": "2026-09-24T14:50:04.825Z",
+  "summary": {
+    "total": 127,
+    "passed": 126,
+    "warnings": 1,
+    "failed": 0,
+    "productionReady": true
+  },
+  "results": [
+    {
+      "id": "route-http-200-/",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/ returned HTTP 200 (26ms)"
+    },
+    {
+      "id": "route-title-/",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/ has valid <title>: \"Free AI Tools for Files, Images &amp; Securit...\""
+    },
+    {
+      "id": "route-desc-/",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/ has meta description (158 chars)"
+    },
+    {
+      "id": "route-canonical-/",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/ has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/"
+    },
+    {
+      "id": "route-indexable-/",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/ is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/ has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/ has valid JSON-LD (WebSite, Organization, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/ provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/image-background-remover",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/image-background-remover returned HTTP 200 (7ms)"
+    },
+    {
+      "id": "route-title-/image-background-remover",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/image-background-remover has valid <title>: \"Remove Image Background Online with AI | Smar...\""
+    },
+    {
+      "id": "route-desc-/image-background-remover",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/image-background-remover has meta description (149 chars)"
+    },
+    {
+      "id": "route-canonical-/image-background-remover",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/image-background-remover has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/image-background-remover"
+    },
+    {
+      "id": "route-indexable-/image-background-remover",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/image-background-remover is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/image-background-remover",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/image-background-remover has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/image-background-remover",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/image-background-remover has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/image-background-remover",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/image-background-remover provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/jpg-to-pdf",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/jpg-to-pdf returned HTTP 200 (5ms)"
+    },
+    {
+      "id": "route-title-/jpg-to-pdf",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/jpg-to-pdf has valid <title>: \"Convert JPG Images to PDF Document Online | S...\""
+    },
+    {
+      "id": "route-desc-/jpg-to-pdf",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/jpg-to-pdf has meta description (149 chars)"
+    },
+    {
+      "id": "route-canonical-/jpg-to-pdf",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/jpg-to-pdf has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/jpg-to-pdf"
+    },
+    {
+      "id": "route-indexable-/jpg-to-pdf",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/jpg-to-pdf is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/jpg-to-pdf",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/jpg-to-pdf has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/jpg-to-pdf",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/jpg-to-pdf has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/jpg-to-pdf",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/jpg-to-pdf provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/pdf-to-jpg",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/pdf-to-jpg returned HTTP 200 (4ms)"
+    },
+    {
+      "id": "route-title-/pdf-to-jpg",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/pdf-to-jpg has valid <title>: \"Convert PDF Pages to JPG Images Online | Smar...\""
+    },
+    {
+      "id": "route-desc-/pdf-to-jpg",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/pdf-to-jpg has meta description (150 chars)"
+    },
+    {
+      "id": "route-canonical-/pdf-to-jpg",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/pdf-to-jpg has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/pdf-to-jpg"
+    },
+    {
+      "id": "route-indexable-/pdf-to-jpg",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/pdf-to-jpg is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/pdf-to-jpg",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/pdf-to-jpg has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/pdf-to-jpg",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/pdf-to-jpg has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/pdf-to-jpg",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/pdf-to-jpg provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/jpg-to-word",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/jpg-to-word returned HTTP 200 (4ms)"
+    },
+    {
+      "id": "route-title-/jpg-to-word",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/jpg-to-word has valid <title>: \"Convert JPG Image to Editable Word Document |...\""
+    },
+    {
+      "id": "route-desc-/jpg-to-word",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/jpg-to-word has meta description (148 chars)"
+    },
+    {
+      "id": "route-canonical-/jpg-to-word",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/jpg-to-word has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/jpg-to-word"
+    },
+    {
+      "id": "route-indexable-/jpg-to-word",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/jpg-to-word is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/jpg-to-word",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/jpg-to-word has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/jpg-to-word",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/jpg-to-word has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/jpg-to-word",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/jpg-to-word provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/png-to-word",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/png-to-word returned HTTP 200 (3ms)"
+    },
+    {
+      "id": "route-title-/png-to-word",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/png-to-word has valid <title>: \"Convert PNG Image to Editable Word Document |...\""
+    },
+    {
+      "id": "route-desc-/png-to-word",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/png-to-word has meta description (142 chars)"
+    },
+    {
+      "id": "route-canonical-/png-to-word",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/png-to-word has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/png-to-word"
+    },
+    {
+      "id": "route-indexable-/png-to-word",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/png-to-word is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/png-to-word",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/png-to-word has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/png-to-word",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/png-to-word has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/png-to-word",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/png-to-word provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/pdf-to-word",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/pdf-to-word returned HTTP 200 (4ms)"
+    },
+    {
+      "id": "route-title-/pdf-to-word",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/pdf-to-word has valid <title>: \"Convert PDF to Editable Word Document Online ...\""
+    },
+    {
+      "id": "route-desc-/pdf-to-word",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/pdf-to-word has meta description (146 chars)"
+    },
+    {
+      "id": "route-canonical-/pdf-to-word",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/pdf-to-word has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/pdf-to-word"
+    },
+    {
+      "id": "route-indexable-/pdf-to-word",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/pdf-to-word is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/pdf-to-word",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/pdf-to-word has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/pdf-to-word",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/pdf-to-word has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/pdf-to-word",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/pdf-to-word provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/screenshot-ai",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/screenshot-ai returned HTTP 200 (3ms)"
+    },
+    {
+      "id": "route-title-/screenshot-ai",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/screenshot-ai has valid <title>: \"Analyze Screenshots with AI Visual Assistant ...\""
+    },
+    {
+      "id": "route-desc-/screenshot-ai",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/screenshot-ai has meta description (147 chars)"
+    },
+    {
+      "id": "route-canonical-/screenshot-ai",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/screenshot-ai has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/screenshot-ai"
+    },
+    {
+      "id": "route-indexable-/screenshot-ai",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/screenshot-ai is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/screenshot-ai",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/screenshot-ai has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/screenshot-ai",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/screenshot-ai has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/screenshot-ai",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/screenshot-ai provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/scam-checker",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/scam-checker returned HTTP 200 (5ms)"
+    },
+    {
+      "id": "route-title-/scam-checker",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/scam-checker has valid <title>: \"AI Scam Checker for Suspicious Messages &amp;...\""
+    },
+    {
+      "id": "route-desc-/scam-checker",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/scam-checker has meta description (140 chars)"
+    },
+    {
+      "id": "route-canonical-/scam-checker",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/scam-checker has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/scam-checker"
+    },
+    {
+      "id": "route-indexable-/scam-checker",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/scam-checker is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/scam-checker",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/scam-checker has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/scam-checker",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/scam-checker has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/scam-checker",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/scam-checker provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/file-tools",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/file-tools returned HTTP 200 (3ms)"
+    },
+    {
+      "id": "route-title-/file-tools",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/file-tools has valid <title>: \"Online File Tools for PDF &amp; Image Documen...\""
+    },
+    {
+      "id": "route-desc-/file-tools",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/file-tools has meta description (151 chars)"
+    },
+    {
+      "id": "route-canonical-/file-tools",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/file-tools has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/file-tools"
+    },
+    {
+      "id": "route-indexable-/file-tools",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/file-tools is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/file-tools",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/file-tools has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/file-tools",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/file-tools has valid JSON-LD (WebApplication, BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/file-tools",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/file-tools provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/pricing",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/pricing returned HTTP 200 (4ms)"
+    },
+    {
+      "id": "route-title-/pricing",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/pricing has valid <title>: \"Free Plan Limits &amp; Pro Tier Access Pricin...\""
+    },
+    {
+      "id": "route-desc-/pricing",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/pricing has meta description (151 chars)"
+    },
+    {
+      "id": "route-canonical-/pricing",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/pricing has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/pricing"
+    },
+    {
+      "id": "route-indexable-/pricing",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/pricing is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/pricing",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/pricing has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/pricing",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/pricing has valid JSON-LD (BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/pricing",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/pricing provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/about",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/about returned HTTP 200 (3ms)"
+    },
+    {
+      "id": "route-title-/about",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/about has valid <title>: \"About Our Mission, Technology &amp; Platform ...\""
+    },
+    {
+      "id": "route-desc-/about",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/about has meta description (153 chars)"
+    },
+    {
+      "id": "route-canonical-/about",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/about has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/about"
+    },
+    {
+      "id": "route-indexable-/about",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/about is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/about",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/about has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/about",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/about has valid JSON-LD (BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/about",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/about provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/privacy",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/privacy returned HTTP 200 (4ms)"
+    },
+    {
+      "id": "route-title-/privacy",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/privacy has valid <title>: \"Privacy Policy &amp; Data Security Commitment...\""
+    },
+    {
+      "id": "route-desc-/privacy",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/privacy has meta description (135 chars)"
+    },
+    {
+      "id": "route-canonical-/privacy",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/privacy has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/privacy"
+    },
+    {
+      "id": "route-indexable-/privacy",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/privacy is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/privacy",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/privacy has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/privacy",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/privacy has valid JSON-LD (BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/privacy",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/privacy provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "route-http-200-/terms",
+      "category": "Route Status",
+      "status": "PASS",
+      "message": "/terms returned HTTP 200 (5ms)"
+    },
+    {
+      "id": "route-title-/terms",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/terms has valid <title>: \"Terms of Service &amp; Platform Usage Guideli...\""
+    },
+    {
+      "id": "route-desc-/terms",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "/terms has meta description (134 chars)"
+    },
+    {
+      "id": "route-canonical-/terms",
+      "category": "Canonicals",
+      "status": "PASS",
+      "message": "/terms has production canonical: https://ais-pre-b6eo5hdkkiprdgvfb5cc55-912009279739.asia-southeast1.run.app/terms"
+    },
+    {
+      "id": "route-indexable-/terms",
+      "category": "Indexability",
+      "status": "PASS",
+      "message": "/terms is INDEXABLE (robots: index, follow)"
+    },
+    {
+      "id": "route-social-/terms",
+      "category": "Social Metadata",
+      "status": "PASS",
+      "message": "/terms has complete Open Graph & Twitter Card tags"
+    },
+    {
+      "id": "route-jsonld-/terms",
+      "category": "Structured Data",
+      "status": "PASS",
+      "message": "/terms has valid JSON-LD (BreadcrumbList, FAQPage)"
+    },
+    {
+      "id": "route-crawler-html-/terms",
+      "category": "Crawling Readiness",
+      "status": "PASS",
+      "message": "/terms provides server-rendered semantic fallback for search bots"
+    },
+    {
+      "id": "titles-unique",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "All 14 titles are completely unique and specific"
+    },
+    {
+      "id": "descs-unique",
+      "category": "SEO Metadata",
+      "status": "PASS",
+      "message": "All 14 meta descriptions are completely unique"
+    },
+    {
+      "id": "robots-directives",
+      "category": "Robots.txt",
+      "status": "PASS",
+      "message": "/robots.txt is valid, allows public pages, blocks internal APIs, and points to sitemap"
+    },
+    {
+      "id": "robots-no-localhost",
+      "category": "Robots.txt",
+      "status": "PASS",
+      "message": "/robots.txt sitemap URL uses clean production origin"
+    },
+    {
+      "id": "sitemap-validation",
+      "category": "Sitemap.xml",
+      "status": "PASS",
+      "message": "/sitemap.xml contains exactly 14 valid, unique, indexable public URLs with no private/api/passport URLs"
+    },
+    {
+      "id": "passport-decommission-routes",
+      "category": "Passport Decommission",
+      "status": "PASS",
+      "message": "All requested legacy Passport Photo routes return genuine HTTP 404 with noindex"
+    },
+    {
+      "id": "gsc-token-configured",
+      "category": "Google Verification",
+      "status": "WARNING",
+      "message": "GOOGLE_SITE_VERIFICATION is not configured in environment. Meta tag omitted (no fake token)."
+    },
+    {
+      "id": "diag-api-health",
+      "category": "Diagnostics API",
+      "status": "PASS",
+      "message": "/api/seo/diagnostics reports real runtime telemetry across all 14 routes and 6 system checks"
+    },
+    {
+      "id": "broken-links-clean",
+      "category": "Broken Links",
+      "status": "PASS",
+      "message": "Audited 14 internal links with 0 broken links (100% reachable)"
+    },
+    {
+      "id": "mobile-viewport",
+      "category": "Mobile Readiness",
+      "status": "PASS",
+      "message": "Mobile viewport meta tag configured correctly for 360px-412px responsiveness"
+    },
+    {
+      "id": "perf-response-times",
+      "category": "Performance",
+      "status": "PASS",
+      "message": "Initial server-side SEO responses are lightweight and fast (Max: 12ms)"
+    },
+    {
+      "id": "security-host-header",
+      "category": "Security",
+      "status": "PASS",
+      "message": "Host Header Injection strictly prevented: external forwarded host did not override configured production origin in canonical URL"
+    },
+    {
+      "id": "security-no-secrets-leak",
+      "category": "Security",
+      "status": "PASS",
+      "message": "Zero API keys or server secrets exposed in HTML, JSON-LD, or SEO diagnostics"
+    },
+    {
+      "id": "regression-health",
+      "category": "Feature Regression",
+      "status": "PASS",
+      "message": "/api/health operational and returning 200 OK"
+    },
+    {
+      "id": "regression-usage",
+      "category": "Feature Regression",
+      "status": "PASS",
+      "message": "/api/usage operational and tracking quota limits"
+    }
+  ]
+}

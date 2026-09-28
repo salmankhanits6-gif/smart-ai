@@ -1,0 +1,181 @@
+[
+  {
+    "name": "1. Upload & Background Removal API Call",
+    "passed": true,
+    "details": {
+      "processingTimeMs": 7401,
+      "inputDimensions": "600x750",
+      "outputDimensions": "600x750",
+      "jobId": "bg_1789481237056_73b067368b72"
+    }
+  },
+  {
+    "name": "2. Output Genuine RGBA PNG with Alpha",
+    "passed": true,
+    "details": {
+      "format": "png",
+      "channels": 4,
+      "hasAlpha": true,
+      "isPalette": false
+    }
+  },
+  {
+    "name": "3. Original RGB Pixels Authentically Preserved (No Hallucination)",
+    "passed": true,
+    "details": {
+      "probeCount": 4,
+      "allDiffsZero": true,
+      "allCoreForegroundsOpaque": true
+    }
+  },
+  {
+    "name": "4. Background Pixels Removed (Alpha = 0)",
+    "passed": true,
+    "details": {
+      "probes": [
+        {
+          "point": "Top-Left Corner",
+          "x": 10,
+          "y": 10,
+          "alpha": 0
+        },
+        {
+          "point": "Top-Right Corner",
+          "x": 590,
+          "y": 10,
+          "alpha": 0
+        },
+        {
+          "point": "Top-Center BG",
+          "x": 50,
+          "y": 20,
+          "alpha": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "8. Color Replacement: White (#ffffff)",
+    "passed": true,
+    "details": {
+      "recompositeTimeMs": 75,
+      "expectedBgRgb": [
+        255,
+        255,
+        255
+      ],
+      "actualBgRgb": [
+        255,
+        255,
+        255
+      ],
+      "facePreserved": true
+    }
+  },
+  {
+    "name": "8. Color Replacement: Blue (#2563eb)",
+    "passed": true,
+    "details": {
+      "recompositeTimeMs": 57,
+      "expectedBgRgb": [
+        37,
+        99,
+        235
+      ],
+      "actualBgRgb": [
+        37,
+        99,
+        235
+      ],
+      "facePreserved": true
+    }
+  },
+  {
+    "name": "8. Color Replacement: Gray (#94a3b8)",
+    "passed": true,
+    "details": {
+      "recompositeTimeMs": 56,
+      "expectedBgRgb": [
+        148,
+        163,
+        184
+      ],
+      "actualBgRgb": [
+        148,
+        163,
+        184
+      ],
+      "facePreserved": true
+    }
+  },
+  {
+    "name": "8. Color Replacement: Black (#000000)",
+    "passed": true,
+    "details": {
+      "recompositeTimeMs": 59,
+      "expectedBgRgb": [
+        0,
+        0,
+        0
+      ],
+      "actualBgRgb": [
+        0,
+        0,
+        0
+      ],
+      "facePreserved": true
+    }
+  },
+  {
+    "name": "10. Custom Background Photo Composite",
+    "passed": true,
+    "details": {
+      "compositeTimeMs": 130,
+      "dimensions": "600x750",
+      "facePreserved": true,
+      "backgroundReplacedWithLandscape": true
+    }
+  },
+  {
+    "name": "11-13. Download File Verification: PNG",
+    "passed": true,
+    "details": {
+      "fileSize": 437803,
+      "detectedFormat": "png",
+      "hasAlpha": true,
+      "dimensions": "600x750",
+      "matchesPreviewExactly": true
+    }
+  },
+  {
+    "name": "11-13. Download File Verification: JPG",
+    "passed": true,
+    "details": {
+      "fileSize": 43540,
+      "detectedFormat": "jpeg",
+      "hasAlpha": false,
+      "dimensions": "600x750",
+      "matchesPreviewExactly": true
+    }
+  },
+  {
+    "name": "11-13. Download File Verification: WEBP",
+    "passed": true,
+    "details": {
+      "fileSize": 42932,
+      "detectedFormat": "webp",
+      "hasAlpha": true,
+      "dimensions": "600x750",
+      "matchesPreviewExactly": true
+    }
+  },
+  {
+    "name": "15. Android Chrome Mobile User-Agent Compatibility",
+    "passed": true,
+    "details": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36",
+      "status": 200,
+      "success": true
+    }
+  }
+]
