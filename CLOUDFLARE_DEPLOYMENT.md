@@ -51,17 +51,20 @@ Smart AI uses a hybrid, production-ready architecture optimized for Cloudflare's
 
 ---
 
-## 2. Cloudflare Pages Dashboard Settings
+## 2. Cloudflare Pages Dashboard Settings & Deploy Commands
 
-When creating a new Cloudflare Pages project connected to your Git repository:
+When deploying to Cloudflare Pages:
 
 | Setting | Value |
 |---|---|
-| **Project Name** | `smart-ai` (or your preferred name) |
+| **Project Name** | `smart-ai` |
 | **Framework Preset** | `None` or `Vite` |
 | **Build Command** | `npm run build` |
+| **Deploy Command (CLI / CI)** | `npx wrangler pages deploy dist --project-name smart-ai` (or `npm run deploy`) |
 | **Build Output Directory** | `dist` |
 | **Root Directory** | `/` |
+
+> **IMPORTANT**: Never use `npx wrangler deploy` on this project. `wrangler deploy` is designed for standalone Cloudflare Workers and will fail with `"Missing entry-point to Worker script or to assets directory"`. This project is a Cloudflare Pages full-stack application with edge Functions (`/functions`), and must be deployed using `npx wrangler pages deploy dist --project-name smart-ai`.
 
 ---
 
@@ -74,6 +77,8 @@ Configure these in the Cloudflare Pages dashboard under:
 |---|---|---|
 | `GEMINI_API_KEY` | **Required** | Your Google Gemini API Key from Google AI Studio. Stored as a secure secret. |
 | `PUBLIC_SITE_URL` | **Required** | The live URL of your deployment (e.g. `https://smart-ai.pages.dev` or `https://yourdomain.com`). Used for canonical SEO tags, OpenGraph URLs, and sitemap. |
+| `PACKAGE_MANAGER` | **Recommended** | Set to `npm` to ensure Cloudflare Pages uses npm install/ci instead of detecting Bun. |
+| `NPM_VERSION` | Optional | Set to `10.9.8` to specify the npm version for Cloudflare Pages. |
 | `GOOGLE_API_KEY` | Optional | Alias for `GEMINI_API_KEY`. |
 | `AUTH_SECRET` | Optional | A random secure string used to sign user session tokens. Defaults to `GEMINI_API_KEY` if omitted. |
 | `BACKEND_SERVICE_URL` | Optional | URL of your companion backend container (e.g. `https://smart-ai-backend.onrender.com`). When provided, native binary operations (background removal, Word OCR) are seamlessly reverse-proxied. |

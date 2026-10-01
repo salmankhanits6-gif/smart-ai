@@ -102,19 +102,19 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* Right Action: Usage & Account */}
           <div className="hidden sm:flex items-center gap-3">
-            {/* Daily quota pill */}
-            {totalRemaining !== null && (
+            {/* Authenticated user daily allowance indicator */}
+            {user && totalRemaining !== null && (
               <div
-                title="Remaining operations today across tools"
+                title="Remaining operations today for your account"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 text-slate-700 text-xs font-medium border border-slate-200"
               >
                 <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
                 <span>
-                  Free Quota:{" "}
+                  Allowance:{" "}
                   <strong className="text-slate-900 font-semibold">
                     {totalRemaining}
                   </strong>{" "}
-                  ops left
+                  left today
                 </span>
               </div>
             )}
@@ -183,16 +183,18 @@ export const Navbar: React.FC<NavbarProps> = ({
             );
           })}
 
-          <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 px-1">
-            <span>
-              {user ? `Signed in as ${user.email}` : "Free tier mode"}
-            </span>
-            {totalRemaining !== null && (
-              <span className="font-semibold text-slate-800">
-                {totalRemaining} daily ops left
+          {user && (
+            <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 px-1">
+              <span className="truncate max-w-[180px]">
+                Signed in as {user.name || user.email}
               </span>
-            )}
-          </div>
+              {totalRemaining !== null && (
+                <span className="font-semibold text-slate-800">
+                  {totalRemaining} ops left today
+                </span>
+              )}
+            </div>
+          )}
         </div>
       )}
     </header>
